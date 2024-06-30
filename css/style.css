@@ -11,6 +11,12 @@ body {
     font-size: 3rem; /* Larger header size */
   }
   a {
-    color: #00ff00;
+    color: #00ff00; /* Hacker green for links */
+  }
+  nav ul {
+    list-style-type: none;
+  }
+  nav ul li {
+    display: inline;
   }
   
