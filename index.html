@@ -23,20 +23,29 @@
 <body class="flex flex-col items-center justify-center min-h-screen">
 
   <header class="mb-8">
-    <h1>eth faucets</h1>
+    <h1>Eth Faucets</h1>
+    <button id="claimButton" class="mt-4 bg-green-500 hover:bg-green-700 text-black font-bold py-2 px-4 rounded">
+      Claim Base Sepolia
+    </button>
   </header>
 
   <main class="w-11/12 md:w-2/3 lg:w-1/2">
     <h2 class="text-2xl mb-4">Features</h2>
-    <p>Testnet Gas Distribution: Automatically distribute testnet gas to users based on their on-chain activity.</p>
-    <p>Mainnet Gas Distribution: Optionally distribute mainnet gas to users with verified on-chain activity.</p>
-    <p>On-Chain Verification: Utilize smart contracts to verify user activity on the blockchain.</p>
-    <p>Manual and Automated Processes: Combine automated systems with manual verification to ensure fair and accurate gas distribution.</p>
+    <p>Testnet Gas Distribution: Automatically distribute testnet gas to users based on their on-chain activity.</p><br>
+    <p>Mainnet Gas Distribution: Optionally distribute mainnet gas to users with verified on-chain activity.</p><br>
+    <p>On-Chain Verification: Utilize smart contracts to verify user activity on the blockchain.</p><br>
+    <p>Manual and Automated Processes: Combine automated systems with manual verification to ensure fair and accurate gas distribution.</p><br>
   </main>
 
   <footer class="mt-8">
     <p>ethfaucets.xyz is under construction but on a mission to give free gas for all.</p>
   </footer>
+
+  <script>
+    document.getElementById('claimButton').addEventListener('click', function() {
+      this.textContent = 'Coming Soon..';
+    });
+  </script>
 
 </body>
 </html>
