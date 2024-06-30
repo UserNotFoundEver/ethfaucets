@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: #d3d3d3;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  h1, h2, p, footer {
+    text-align: center;
+  }
+  h1 {
+    text-transform: lowercase;
+    font-size: 3rem; /* Larger header size */
+  }
+  a {
+    color: #00ff00;
+  }
+  
